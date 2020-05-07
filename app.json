@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Covid-19 Tracker",
+    "slug": "Madrid",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sarisha.covid19tracker",
+      "buildNumber": "1.0.0"
+    },
+    "description" : "",
+    "android": {
+      "package": "com.sarisha.covid19tracker",
+      "versionCode": 1
+    }
+  }
+}
